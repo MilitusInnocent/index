@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>landing Page</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/ad11cd9161.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="landingPage.css">
+
+
+</head>
+
+<body>
+<div class="container-fluid">
+  <div class="hideOnSmallScreenOne">
+    <div class="topnav" id="myTopnav">
+      <img class="hamburgerImageBig" src="https://gdurl.com/L7G8">
+      <a href="#home" class="active"></a>
+      <a><input type="submit" id="menuSubmit" class="menuSubmit" value="LOGIN"></a>
+      <a href="#news">CONTACT</a>
+      <a href="#search">PRICING</a>
+      <a href="#about">FEATURES</a>
+    </div>
+  </div>
+
+  <div class="hideOnBigScreenOne">
+    <img class="hamburgerImage" src="https://gdurl.com/L7G8"><span class="hamburger" onclick="openNav()">&#9776;</span>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#home" id="insideBookmark"><span class="bookmark1 fas fa-bookmark">
+      </span><div class="insideBookmark">&nbsp BOOKMARK</div></a>
+      <a href="#" style="border-bottom: 1px solid lightgray; border-top: 1px solid lightgray">F E A T U R E S</a>
+      <a href="#" style="border-bottom: 1px solid lightgray;">P R I C I N G</a>
+      <a href="#" style="border-bottom: 1px solid lightgray;">C O N T A C T</a>
+      <a href="#"><input type="submit" class="menuSubmitSmall" value="L O G I N"></a>
+      <a><img class="facebook" src="https://gdurl.com/KfySQ">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<img class="facebook" src="https://gdurl.com/hE2Z"></a>
+    </div>
+  </div>
+
+  <div class="hideOnSmallScreenOne">
+    <div class="row">
+      <div class="col-7">
+        <div class="simple">
+          <p class="simpleTop">A Simple Bookmark Manager</p>
+          <p class="simpleBottom">A clean and simple interface to organize your
+            favourite websites. Open a new browser tab and see
+             your sites load instantly. Try it for free.</p>
+              <input type="submit" id="submit1" value="Get it on Chrome"> &nbsp
+              <input type="submit" id="submit2" value="Get it on Firefox">
+        </div>
+      </div>
+      <div class="col-5">
+          <div class="blue"><div><img class="rightImage" src="https://gdurl.com/p8Fa"></div></div>
+        </div>
+    </div>
+  </div>
+
+  <div class="hideOnBigScreenOne">
+      <div class="blueSmall"><img class="rightImageSmall" src="https://gdurl.com/p8Fa"></div>
+      <div class="simpleSmall"><p class="simpleTopSmall">A Simple Bookmark Manager</p>
+      <p class="simpleBottomSmall">A clean and simple interface to organize your
+        favourite websites. Open a new browser tab and see
+         your sites load instantly. Try it for free.</p>
+          <input type="submit" id="submit1" value="Get it on Chrome"> &nbsp
+          <input type="submit" id="submit2" value="Get it on Firefox"></div>
+
+  </div>
+
+
+  <div class="hideOnSmallScreenOne">
+    <div class="row">
+      <div class="col-4"></div>
+      <div class="col-4">
+        <div class="features">Features</div> <br >
+        <div class="underFeatures">Our aim is to make it quick and easy for you to access your
+          favourite websites. Your bookmarks sync between your devices so you can access them on the go.</div>
+      </div>
+      <div class="col-4"></div>
+    </div>
+  </div>
+
+
+  <div class="hideOnBigScreenOne">
+    <div class="features">Features</div> <br >
+    <div class="underFeatures">Our aim is to make it quick and easy for you to access your
+      favourite websites. Your bookmarks sync between your devices so you can access them on the go.</div>
+  </div>
+
+
+  <div class="hideOnSmallScreenOne">
+    <div class="row">
+      <div class="col-2"></div>
+      <div class="col-8">
+        <div class="simpleBookmarking">
+          <div class="row">
+              <div class="col-4"><div class="simpleHover">Simple Bookmarking</div></div>
+              <div class="col-4"><div class="speedyHover">Speedy Searching</div></div>
+              <div class="col-4"><div class="easyHover">Easy Sharing</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-2"></div>
+    </div>
+  </div>
+
+
+  <div class="hideOnBigScreenOne">
+    <div class="simpleBookmarkingSmall">
+      <div class="simpleHover" style="border-top: 1px solid lightgray;
+      padding-top: 10px;">Simple Bookmarking</div>
+      <button class="backgroundColor" id="simpleClickSmall"></button>
+      <div class="speedyHover" style="border-top: 1px solid lightgray;
+      margin-top: -5px; padding-top: 10px;">Speedy Searching</div>
+      <button class="noBackgroundColor" id="speedyClickSmall"></button>
+      <div class="easyHover" style="border-top: 1px solid lightgray;
+      border-bottom: 1px solid lightgray;
+      margin-bottom: -20px; margin-top: -5px; padding-top: 10px;
+      padding-bottom: 10px;">Easy Sharing</div>
+      <button class="noBackgroundColor" id="easyClickSmall"></button>
+    </div>
+
+  </div>
+
+  <div class="hideOnSmallScreenOne">
+    <div class="row">
+      <div class="col-2"></div>
+      <div class="col-8">
+        <div class="underSimpleBookmarking">
+          <div class="row">
+              <button class="backgroundColor" id="simpleClick"></button>
+              <button class="noBackgroundColor" id="speedyClick"></button>
+              <button class="noBackgroundColor" id="easyClick"></button>
+          </div>
+        </div>
+      </div>
+      <div class="col-2"></div>
+    </div>
+  </div>
+
+  <div class="hideOnSmallScreenOne">
+    <div class="row">
+      <div class="col-5">
+          <div class="leftBlue">
+            <img class="show" id="leftImage1" src="https://gdurl.com/BQEc">
+            <img class="hide" id="leftImage2" src="https://gdurl.com/GkGm">
+            <img class="hide" id="leftImage3" src="https://gdurl.com/o3FP"></div>
+      </div>
+      <div class="col-7">
+        <div class="bookmarkInOneClick">
+          <div>Bookmark in one click</div>
+          <div class="underBookmarkInOneClick">Organize your bookmarks however you like. Our simple drag-and-drop
+            interface gives you complete control over how you manage your favourite sites.</div>
+              <input type="submit" id="submit1" value="More Info">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hideOnBigScreenOne">
+    <div class="leftBlue">
+      <img class="show" id="leftImage1Small" src="https://gdurl.com/BQEc">
+      <img class="hide" id="leftImage2Small" src="https://gdurl.com/GkGm">
+      <img class="hide" id="leftImage3Small" src="https://gdurl.com/o3FP"></div>
+      <div class="bookmarkInOneClickSmall">
+        <div>Bookmark in one click</div>
+        <div class="underBookmarkInOneClick">Organize your bookmarks however you like. Our simple drag-and-drop
+          interface gives you complete control over how you manage your favourite sites.</div>
+            <input type="submit" id="submit1" value="More Info">
+      </div>
+  </div>
+
+  <div class="hideOnSmallScreenOne">
+    <div class="row">
+      <div class="col-4"></div>
+      <div class="col-4">
+        <div class="features">Download the extension</div> <br >
+        <div class="underFeatures">We've got more browsers in the pipeline.
+           Please do let us know if you've got a favourite you'd like us to prioritize.</div>
+      </div>
+      <div class="col-4"></div>
+    </div>
+  </div>
+
+  <div class="hideOnBigScreenOne">
+    <div class="features">Download the extension</div> <br >
+    <div class="underFeatures">We've got more browsers in the pipeline.
+       Please do let us know if you've got a favourite you'd like us to
+       sprioritize.</div>
+  </div>
+
+
+  <div class="hideOnSmallScreenOne">
+    <div class="container">
+      <div class="row">
+        <div class="col-1"></div>
+        <div class="col-10">
+          <div class="row">
+            <div class="col-3"><div class="Chrome">
+              <img class="chromeImage" src="https://gdurl.com/Eqkm">
+              <p class="underChrome">Add to Chrome</p>
+              <p class="minimum">Minimum version 62</p>
+              <p><img class="dotLine" src="https://gdurl.com/WfHJ"></p>
+              <p><input type="submit" class="extension"
+                value="Add & Install Extension"></p></div></div>
+            <div class="col-1"></div>
+            <div class="col-3"><div class="Firefox">
+              <img class="chromeImage" src="https://gdurl.com/evSU">
+                  <p class="underChrome">Add to Firefox</p>
+                  <p class="minimum">Minimum version 55</p>
+                  <p><img class="dotLine" src="https://gdurl.com/WfHJ"></p>
+                  <p><input type="submit"
+                    class="extension" value="Add & Install Extension"></p></div></div>
+            <div class="col-1"></div>
+            <div class="col-3"><div class="Opera">
+              <img class="chromeImage" src="https://gdurl.com/uGqA">
+                    <p class="underChrome">Add to Opera</p>
+                    <p class="minimum">Minimum version 46</p>
+                    <p><img class="dotLine" src="https://gdurl.com/WfHJ"></p>
+                    <p><input type="submit" class="extension" value="Add & Install Extension"></p></div></div>
+          </div>
+        </div>
+        <div class="col-1"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hideOnBigScreenOne">
+    <div class="row">
+      <div class="col-2"></div>
+      <div class="col-8"><div class="chromeSmall">
+        <img class="chromeImage" src="https://gdurl.com/Eqkm">
+        <p class="underChrome">Add to Chrome</p>
+        <p class="minimum">Minimum version 62</p>
+        <p><img class="dotLine" src="https://gdurl.com/WfHJ"></p>
+        <p><input type="submit" class="extension"
+          value="Add & Install Extension"></p></div></div>
+      <div class="col-2"></div></div>
+
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8"><div class="firefoxSmall">
+          <img class="chromeImage" src="https://gdurl.com/evSU">
+              <p class="underChrome">Add to Firefox</p>
+              <p class="minimum">Minimum version 55</p>
+              <p><img class="dotLine" src="https://gdurl.com/WfHJ"></p>
+              <p><input type="submit"
+                class="extension" value="Add & Install Extension"></p></div></div>
+        <div class="col-2"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8"><div class="operaSmall">
+          <img class="chromeImage" src="https://gdurl.com/uGqA">
+                <p class="underChrome">Add to Opera</p>
+                <p class="minimum">Minimum version 46</p>
+                <p><img class="dotLine" src="https://gdurl.com/WfHJ"></p>
+                <p><input type="submit" class="extension" value="Add & Install Extension"></p></div></div>
+        <div class="col-2"></div>
+      </div>
+  </div>
+
+  <div class="hideOnSmallScreenOne">
+    <div class="row">
+      <div class="col-3"></div>
+      <div class="col-6">
+        <p class="FAQ">Frequently Asked Questions</p>
+        <p class="underFAQ">Here are some of our FAQs. If you have any other
+          questions you'd like answered please feel free to email us.</p>
+      </div>
+      <div class="col-3"></div>
+    </div>
+  </div>
+
+  <div class="hideOnBigScreenOne">
+    <div class="col-12" style="padding: 20px;">
+      <p class="FAQ">Frequently Asked Questions</p>
+      <p class="underFAQ">Here are some of our FAQs. If you have any other
+        questions you'd like answered please feel free to email us.</p>
+    </div>
+  </div>
+
+  <div class="hideOnSmallScreenOne">
+    <div class="row">
+      <div class="col-3"></div>
+      <div class="col-6">
+        <div class="accordion">What is Bookmark?</div>
+        <div class="panel"><p>Vivamus luctus eros
+          aliquet convallis ultricies. Mauris augue massa,
+          ultricies non ligula. Suspendisse imperdiet. Vivamus
+          luctus eros aliquet convallis ultricies. Mauris augue
+          massa, ultricies non ligula. Suspendisse imperdiet.
+          Vivamus luctus eros aliquet convallis ultricies. Mauris
+          augue massa, ultricies non ligula. Suspendisse imperdiet.</p></div>
+
+          <div class="accordion">How can I request a new browser?</div>
+          <div class="panel"><p>Vivamus luctus eros
+            aliquet convallis ultricies. Mauris augue massa,
+            ultricies non ligula. Suspendisse imperdiet. Vivamus
+            luctus eros aliquet convallis ultricies. Mauris augue
+            massa, ultricies non ligula. Suspendisse imperdiet.
+            Vivamus luctus eros aliquet convallis ultricies. Mauris
+            augue massa, ultricies non ligula. Suspendisse imperdiet.</p></div>
+
+            <div class="accordion">Is there a mobile app?</div>
+            <div class="panel"><p>Vivamus luctus eros
+              aliquet convallis ultricies. Mauris augue massa,
+              ultricies non ligula. Suspendisse imperdiet. Vivamus
+              luctus eros aliquet convallis ultricies. Mauris augue
+              massa, ultricies non ligula. Suspendisse imperdiet.
+              Vivamus luctus eros aliquet convallis ultricies. Mauris
+              augue massa, ultricies non ligula. Suspendisse imperdiet.</p></div>
+
+              <div class="accordion" style="border-bottom: 1px solid #DCDCDC;">What about other Chromium browsers?</div>
+              <div class="panel"><p>Vivamus luctus eros
+                aliquet convallis ultricies. Mauris augue massa,
+                ultricies non ligula. Suspendisse imperdiet. Vivamus
+                luctus eros aliquet convallis ultricies. Mauris augue
+                massa, ultricies non ligula. Suspendisse imperdiet.
+                Vivamus luctus eros aliquet convallis ultricies. Mauris
+                augue massa, ultricies non ligula. Suspendisse imperdiet.</p></div>
+
+                <p class="submitAcc"><input type="submit" id="submitAcc" value="More Info"></p>
+      </div>
+      <div class="col-3"></div>
+    </div>
+  </div>
+
+  <div class="hideOnBigScreenOne">
+    <div class="col-12" style="padding: 20px;">
+      <div class="accordion">What is Bookmark?</div>
+      <div class="panel"><p>Vivamus luctus eros
+        aliquet convallis ultricies. Mauris augue massa,
+        ultricies non ligula. Suspendisse imperdiet. Vivamus
+        luctus eros aliquet convallis ultricies. Mauris augue
+        massa, ultricies non ligula. Suspendisse imperdiet.
+        Vivamus luctus eros aliquet convallis ultricies. Mauris
+        augue massa, ultricies non ligula. Suspendisse imperdiet.</p></div>
+
+        <div class="accordion">How can I request a new browser?</div>
+        <div class="panel"><p>Vivamus luctus eros
+          aliquet convallis ultricies. Mauris augue massa,
+          ultricies non ligula. Suspendisse imperdiet. Vivamus
+          luctus eros aliquet convallis ultricies. Mauris augue
+          massa, ultricies non ligula. Suspendisse imperdiet.
+          Vivamus luctus eros aliquet convallis ultricies. Mauris
+          augue massa, ultricies non ligula. Suspendisse imperdiet.</p></div>
+
+          <div class="accordion">Is there a mobile app?</div>
+          <div class="panel"><p>Vivamus luctus eros
+            aliquet convallis ultricies. Mauris augue massa,
+            ultricies non ligula. Suspendisse imperdiet. Vivamus
+            luctus eros aliquet convallis ultricies. Mauris augue
+            massa, ultricies non ligula. Suspendisse imperdiet.
+            Vivamus luctus eros aliquet convallis ultricies. Mauris
+            augue massa, ultricies non ligula. Suspendisse imperdiet.</p></div>
+
+            <div class="accordion" style="border-bottom: 1px solid #DCDCDC;">What about other Chromium browsers?</div>
+            <div class="panel"><p>Vivamus luctus eros
+              aliquet convallis ultricies. Mauris augue massa,
+              ultricies non ligula. Suspendisse imperdiet. Vivamus
+              luctus eros aliquet convallis ultricies. Mauris augue
+              massa, ultricies non ligula. Suspendisse imperdiet.
+              Vivamus luctus eros aliquet convallis ultricies. Mauris
+              augue massa, ultricies non ligula. Suspendisse imperdiet.</p></div>
+
+              <p class="submitAcc"><input type="submit" id="submitAcc" value="More Info"></p>
+    </div>
+  </div>
+
+  <div class="hideOnSmallScreenOne">
+    <div class="stay">
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6"><p class="alreadyJoined">3 5 , 0 0 0 + &nbsp A L R E A D Y &nbsp J O I N E D </p>
+        <p class="stayUp">Stay up-to-date with what we're doing</p>
+        <form action="#">
+          <div class="field">
+            <div class="row">
+              <div class="col-6"><input onkeyup="check()" type="text"
+              placeholder="Enter your email address" id="email">
+              <p class="error-text">whoops, make sure it's an email</p>
+              <div class="icons">
+                <span class="icon1 fas fa-exclamation-circle"></span>
+                <span class="icon2 fas fa-check-circle"></span>
+              </div></div>
+              <div class="col-6"><button class="contactUs">Contact Us</button></div>
+            </div>
+
+          </div>
+        </form>
+        </div>
+        <div class="col-3"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="hideOnBigScreenOne">
+    <div class="stay">
+      <p class="alreadyJoined">3 5 , 0 0 0 + &nbsp A L R E A D Y &nbsp J O I N E D </p>
+      <p class="stayUp">Stay up-to-date with what we're doing</p>
+      <form class="form1" action="#">
+        <div class="field1">
+          <input onkeyup="checkSmall()" type="text"
+          placeholder="Enter your email address" id="email1">
+          <div class="error-text1">whoops, make sure it's an email</div>
+          <div class="iconsSmall">
+            <span class="icon1Small fas fa-exclamation-circle"></span>
+            <span class="icon2Small fas fa-check-circle"></span>
+          </div>
+        </div>
+        <div class="conta"><button class="contactUs">Contact Us</button></div>
+      </form>
+    </div>
+  </div>
+
+  <div class="hideOnSmallScreenOne">
+    <div class="footer">
+      <div class="row">
+        <div class="col-1"></div>
+        <div class="col-8">
+          <span class="bookmark2 fas fa-bookmark"></span>
+          <span class="boo">BOOKMARK</span>
+          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+          <span class="footerFeatures">FEATURES &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            PRICING &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp CONTACT</span>
+        </div>
+        <div class="col-3">
+          <span><img class="facebookFooter" src="https://gdurl.com/KfySQ">
+          &nbsp &nbsp &nbsp &nbsp
+          <img class="facebookFooter" src="https://gdurl.com/hE2Z"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hideOnBigScreenOne">
+    <div class="footerSmall">
+      <div class="footSmall">
+        <span class="bookmark2 fas fa-bookmark"></span>
+        <span class="boo">BOOKMARK</span> <br><br><br>
+        <span class="footerFeatures">F E A T U R E S <br><br>
+          P R I C I N G <br><br> C O N T A C T</span> <br><br><br>
+          <span><img class="facebookFooter" src="https://gdurl.com/KfySQ">
+          &nbsp &nbsp &nbsp &nbsp
+          <img class="facebookFooter" src="https://gdurl.com/hE2Z"></span>
+      </div>
+    </div>
+
+  </div>
+
+
+</div>
+
+
+
+  <script src="landingPage.js"></script>
+</body>
+</html>

@@ -1,0 +1,945 @@
+.hamburger {
+  font-size: 30px;
+  cursor:pointer;
+  float: right;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+.facebook {
+  margin-top: 50px;
+}
+
+.hamburgerImageBig {
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.hamburgerImage {
+  float: left;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.menuSubmitSmall {
+  font-family: 'Rubik', sans-serif;
+  width: 100%;
+  border-radius: 5px;
+  border: 3px solid white;
+  background-color: hsl(229, 31%, 21%);
+  font-size: 20px;
+  color: white;
+  padding: 9px;
+  font-weight: 400;
+}
+
+.insideBookmark {
+  color: white;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Rubik', sans-serif;
+}
+
+#insideBookmark {
+  margin-top: -60px;
+  float: left;
+}
+
+.bookmark1 {
+  font-family: 'Rubik', sans-serif;
+  color: hsl(229, 31%, 21%);
+  text-align: center;
+  border-radius: 50%;
+  font-size: 12px;
+  padding: 10px;
+  width: 10px;
+  height: auto;
+  background-color: white;
+  margin: auto;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: hsl(229, 31%, 21%);
+  opacity: 0.8;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align:center;
+}
+
+.sidenav a {
+  font-family: 'Rubik', sans-serif;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover{
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#menuSubmit {
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Rubik', sans-serif;
+  width: 80px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: hsl(0, 94%, 66%);
+  color: white;
+  border-color: none;
+  border-radius: none;
+  border: none;
+}
+
+#menuSubmit:hover {
+  background-color: white;
+  font-size: 13px;
+  font-weight: 500;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: hsl(0, 94%, 66%);
+  border: 1px solid hsl(0, 94%, 66%);
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: hsl(231, 69%, 60%);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: hsl(0, 94%, 66%);
+}
+
+.topnav a.active {
+  background-color: white;
+  color: white;
+  float: left;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.simpleTop {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.simpleBottom {
+font-family: 'Rubik', sans-serif;
+font-size: 15px;
+color: lightgray;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.simpleSmall {
+  text-align: center;
+}
+
+.simpleTopSmall {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.simpleBottomSmall {
+  font-family: 'Rubik', sans-serif;
+  font-size: 15px;
+  color: lightgray;
+  text-align: center;
+  margin: auto;
+  padding: 15px;
+}
+
+#submit1 {
+  border-radius: 5px;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: 'Rubik', sans-serif;
+  padding: 10px;
+  background-color: hsl(231, 69%, 60%);
+  border-color: none;
+  border-radius: none;
+}
+
+#submit1:hover{
+  background-color: white;
+  font-size: 15px;
+  padding: 15px;
+}
+
+#submit2:hover{
+  background-color: white;
+  font-size: 15px;
+  padding: 15px;
+}
+
+#submit2 {
+  border-color: black;
+  border-radius: 5px;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: 'Rubik', sans-serif;
+  padding: 10px;
+}
+
+.simple {
+  font-family: 'Rubik', sans-serif;
+  padding: 100px;
+}
+
+.blue {
+  background-color: hsl(231, 69%, 60%);
+  border-radius: 0px 0px 0px 200px;
+  margin-top: 150px;
+  margin-left: 5%;
+  padding-top: 70px;
+}
+
+.rightImage {
+  width: 400px;
+  height: auto;
+  margin-left: -50px;
+  margin-top: -170px;
+}
+
+.blueSmall {
+  background-color: hsl(231, 69%, 60%);
+  border-radius: 0px 0px 0px 200px;
+  margin-top: 150px;
+  margin-left: 50px;
+  padding-top: 70px;
+  text-align: center;
+}
+
+.rightImageSmall {
+  width: 320px;
+  height: auto;
+  margin-top: -120px;
+  margin-right: auto;
+  margin-left: -50px;
+}
+
+
+.features {
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
+
+.underFeatures {
+  font-family: 'Rubik', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.simpleBookmarking {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.simpleBookmarkingSmall {
+  text-align: center;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.simpleHover:hover {
+  color: hsl(0, 94%, 66%);
+}
+
+.speedyHover:hover {
+  color: hsl(0, 94%, 66%);
+}
+
+.easyHover:hover {
+  color: hsl(0, 94%, 66%);
+}
+
+
+.underSimpleBookmarking {
+border-bottom: 1px solid;
+border-bottom-color: lightgray;
+margin: auto;
+}
+
+button {
+width: 300px;
+padding-top: 3px;
+border: none;
+}
+
+.backgroundColor {
+  background-color: hsl(0, 94%, 66%);
+}
+
+.noBackgroundColor {
+  background-color: none;
+}
+
+.leftBlue {
+  background-color: hsl(231, 69%, 60%);
+  border-radius: 0px 0px 200px 0px;
+  margin-top: 150px;
+  margin-right: 150px;
+  padding-top: 150px;
+}
+
+#leftImage1 {
+  width: 350px;
+  height: auto;
+  margin-left: 100px;
+  margin-top: -250px;
+}
+
+#leftImage2 {
+  width: 350px;
+  height: auto;
+  margin-left: 100px;
+  margin-top: -250px;
+}
+
+#leftImage3 {
+  width: 350px;
+  height: auto;
+  margin-left: 100px;
+  margin-top: -250px;
+}
+
+#leftImage1Small {
+  width: 300px;
+  height: auto;
+  margin-top: -250px;
+  margin-left: 30px;
+}
+
+#leftImage2Small {
+  width: 300px;
+  height: auto;
+  margin-left: 30px;
+  margin-top: -250px;
+}
+
+#leftImage3Small {
+  width: 300px;
+  height: auto;
+  margin-left: 30px;
+  margin-top: -250px;
+}
+
+.ImageClassOne {
+  display: none;
+  width: 450px;
+  height: auto;
+  margin-left: 50px;
+  margin-top: -170px;
+}
+
+.ImageClassTwo {
+  display: none;
+  width: 450px;
+  height: auto;
+  margin-left: 50px;
+  margin-top: -170px;
+}
+
+.ImageClassThree {
+  display: none;
+  width: 450px;
+  height: auto;
+  margin-left: 50px;
+  margin-top: -170px;
+}
+
+.bookmarkInOneClick {
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 100px;
+}
+
+.bookmarkInOneClickSmall {
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.underBookmarkInOneClick {
+  font-family: 'Rubik', sans-serif;
+  font-size: 15px;
+  color: lightgray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.extension {
+  background-color: hsl(231, 69%, 60%);
+  color: white;
+  border: 10px;
+  border-color: hsl(231, 69%, 60%);
+  border-radius: 3px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.extension:hover {
+  background-color: white;
+  color: hsl(231, 69%, 60%);
+}
+
+.dotLine {
+  width: 150px;
+}
+
+.Chrome {
+  text-align: center;
+  box-shadow: 0px 8px 12px #DCDCDC;
+  border-radius: 10px;
+  margin-left: 100px;
+  padding: 20px;
+  float: left;
+}
+
+.Firefox {
+  text-align: center;
+  box-shadow: 0px 8px 12px #DCDCDC;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 50px;
+  border-radius: 10px;
+  float: left;
+}
+
+.Opera {
+text-align: center;
+box-shadow: 0px 8px 12px #DCDCDC;
+padding: 20px;
+margin-top: 40px;
+border-radius: 10px;
+float: left;
+}
+
+.chromeSmall {
+  text-align: center;
+  box-shadow: 0px 8px 12px #DCDCDC;
+  border-radius: 10px;
+  margin: auto;
+  padding: 20px;
+}
+
+.firefoxSmall {
+  text-align: center;
+  box-shadow: 0px 8px 12px #DCDCDC;
+  border-radius: 10px;
+  margin: auto;
+  padding: 20px;
+}
+
+.operaSmall {
+  text-align: center;
+  box-shadow: 0px 8px 12px #DCDCDC;
+  border-radius: 10px;
+  margin: auto;
+  padding: 20px;
+}
+
+.underChrome {
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 20px;
+}
+
+.FAQ {
+  font-family: 'Rubik', sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.underFAQ {
+  font-family: 'Rubik', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.accordion {
+  background-color: white;
+  color: #444;
+  cursor: pointer;
+  padding: 20px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  border-top: 1px solid #DCDCDC;
+}
+
+ .accordion:hover {
+  color: hsl(0, 94%, 66%);
+}
+
+.accordion:after {
+  content: "\276F";
+  color: hsl(231, 69%, 60%);
+  font-weight: bold;
+  float: right;
+  transform: rotate(90deg);
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.proactive:after {
+  content: "\276F";
+  color: hsl(0, 94%, 66%);;
+  transform: rotate(270deg);
+  font-size: 20px;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+#submitAcc {
+  text-align: center;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Rubik', sans-serif;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: hsl(231, 69%, 60%);
+  border-color: none;
+  border-radius: none;
+  border: none;
+  color: white;
+}
+
+.submitAcc {
+  text-align: center;
+  padding: 50px;
+}
+
+.stay {
+  background-color: hsl(231, 69%, 60%);
+  height: 350px;
+}
+
+.stayUp {
+  color: white;
+  font-size: 26px;
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  font-weight: 500;
+}
+
+.alreadyJoined{
+  font-size: 10px;
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  font-weight: 500;
+}
+
+.inputContact {
+  text-align: center;
+}
+
+#email {
+  width: 340px;
+  height: auto;
+  text-align: center;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 15px;
+  float: left;
+  margin-left: 75px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.field {
+  text-align: center;
+}
+
+.contactUs {
+  border-radius: 3px;
+  width: 120px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: hsl(0, 94%, 66%);
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.contactUs:hover {
+  background-color: white;
+  border: 1px solid hsl(0, 94%, 66%);
+  color: hsl(0, 94%, 66%);
+  width: 140px;
+}
+
+.content form .field {
+  height: 45px;
+  display: flex;
+  position: relative;
+}
+
+form .field input {
+  height: 100%;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  padding-left: 15px;
+  font-size: 18px;
+  outline: none;
+}
+
+form .field .icons {
+  position: absolute;
+  top: 10px;
+  right: -80px;
+  border-radius: 50%;
+}
+
+.field .icons span {
+  height: 25px;
+  width: 25px;
+  line-height: 25px;
+  display: none;
+}
+
+.field .icons span.icon1 {
+  color: #e74c3c;
+  border-color: #e74c3c;
+}
+
+.field .icons span.icon2 {
+  color: #27ae60;
+  border-color: #27ae60;
+}
+
+form .error-text {
+  background: #e74c3c;
+  color: white;
+  font-style: italic;
+  padding: 8px;
+  border-radius: 5px;
+  display: none;
+  margin-top: 40px;
+  width: 340px;
+  margin-left: 24.25%;
+  text-align: left;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+}
+
+.hideOnBigScreenOne {
+  display: none;
+  padding-bottom: 20px;
+}
+
+.hideOnSmallScreen2 {display: none;}
+
+.otherBigScreen {display: none;}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.container {
+  width: 80%;
+}
+
+.content .form1 .field1 {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  position: relative;
+}
+
+.field1 {
+  text-align: center;
+}
+
+.form1 .field1 input {
+  width: 100%;
+  height: 100%;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding-left: 15px;
+  font-size: 18px;
+  outline: none;
+}
+
+.form1 .field1 .iconsSmall {
+  position: relative;
+  right: 10%;
+  top: -55px;
+  float: right;
+}
+
+.field1 .iconsSmall span {
+  height: 25px;
+  width: 25px;
+  line-height: 25px;
+  display: none;
+}
+
+.field1 .iconsSmall span.icon1Small {
+  color: #e74c3c;
+  border-color: #e74c3c;
+}
+
+.field1 .iconsSmall span.icon2Small {
+  color: #27ae60;
+  border-color: #27ae60;
+}
+
+.form1 .error-text1 {
+  background: #e74c3c;
+  color: white;
+  font-style: italic;
+  padding: 8px;
+  border-radius: 5px;
+  display: none;
+  width: 80%;
+  text-align: left;
+  align-items: center;
+  font-size: 13px;
+  margin: auto;
+  margin-top: -10px;
+}
+
+#email1 {
+  width: 80%;
+  text-align: center;
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+  font-size: 15px;
+  border: 1px solid lightgray;
+  padding-left: 20px;
+}
+
+.footer {
+  background-color: hsl(229, 31%, 21%);
+  width: 100%;
+  height: 100px;
+}
+
+.footerSmall {
+  background-color: hsl(229, 31%, 21%);
+  width: 100%;
+  height: 300px;
+  color: white;
+  font-family:'Rubik' sans-serif;
+  font-size: 15px;
+}
+
+.footSmall {
+  padding-top: 50px;
+}
+
+.footer .col-8 {
+  margin-top: 50px;
+  color: white;
+  font-family:'Rubik' sans-serif;
+}
+
+.footer .col-8 span {
+  margin-left: 30px;
+  font-family:'Rubik' sans-serif;
+}
+
+.boo {
+  font-weight: 500;
+}
+
+.footerFeatures {
+  font-size: 13px;
+  font-family:'Rubik' sans-serif;
+}
+
+.footer .col-3 {
+  margin-top: 50px;
+  float: right;
+}
+
+.bookmark2 {
+  font-family: 'Rubik', sans-serif;
+  color: white;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 12px;
+  padding: 10px;
+  width: 10px;
+  height: auto;
+  background-color: hsl(231, 69%, 60%);
+  margin: auto;
+}
+
+
+
+@media screen and (max-width: 1440px) {
+.container-fluid {width:100%;}
+button {width: 250px;}
+.leftBlue {margin-right: 100px;}
+#leftImage1 {width: 400px;}
+#leftImage2 {width: 400px;}
+#leftImage3 {width: 400px;}
+.extension {padding: 10px;}
+}
+
+@media screen and (max-width: 1199px){
+.showOnBiggestScreen {display: none;}
+.otherBigScreen {display: block;}
+button {width: 200px;}
+.simpleBookmarking {font-size: 15px;}
+.leftBlue {margin-right: 70px;}
+.container {width: 100%; font-size: 13px;}
+.extension {font-size: 13px; padding: 10px;}
+form .field .icons {right: -50px;}
+#email {float: none; width: 220px;}
+form .error-text {width: 220px; margin-top: -10px; margin-left: 75px; font-size: 10px;}
+}
+
+@media screen and (max-width: 991px){
+.blue {margin-left: 10px;}
+.rightImage {width: 300px; height: auto;}
+.simpleTop {font-size: 20px;}
+.showOnBiggestScreen {display: none;}
+.otherBigScreen {display: block;}
+button {width: 170px;}
+.simpleBookmarking {font-size: 13px;}
+.leftBlue {margin-right: 70px;}
+#leftImage1 {width: 280px; margin-left: 70px;}
+#leftImage2 {width: 280px; margin-left: 70px;}
+#leftImage3 {width: 280px; margin-left: 70px;}
+.chromeImage {width: 40px; height: auto;}
+.underChrome {font-size: 13px;}
+.minimum {font-size: 13px;}
+.extension {font-size: 12px;}
+.dotLine {width: 100px;}
+.Chrome {padding: 10px; margin-left: 60px;}
+.Firefox {padding: 10px; margin-left: 30px;}
+.Opera {padding: 10px;}
+.container {width: 100%;}
+form .field .icons {right: -10px;}
+#email {float: right; width: 220px; margin-right: -30px;}
+form .error-text {width: 220px; margin-top: -3px;
+  margin-right: -30px; font-size: 10px; float: right;}
+}
+
+@media screen and (max-width: 767px){
+  .container-fluid {width:100%; margin: auto;}
+  .hideOnBigScreenOne{display: none; width: 100%; margin: auto;}
+  .blue {margin-left: 10px;}
+  .rightImage {width: 300px; height: auto;}
+  .simpleTop {font-size: 20px;}
+  button {width: 170px;}
+  .simpleBookmarking {font-size: 13px;}
+  .leftBlue {margin-right: 70px;}
+  #leftImage1 {width: 280px; margin-left: 70px;}
+  #leftImage2 {width: 280px; margin-left: 70px;}
+  #leftImage3 {width: 280px; margin-left: 70px;}
+  .chromeImage {width: 40px; height: auto;}
+  .underChrome {font-size: 13px;}
+  .minimum {font-size: 13px;}
+  .extension {font-size: 12px;}
+  .dotLine {width: 100px;}
+  .Chrome {padding: 10px; margin-left: -60px; float: left;}
+  .Firefox {padding: 10px; margin-left: -30px; float: left;}
+  .Opera {padding: 10px;}
+  .container {width: 100%;}
+  form .field .icons {right: -10px;}
+  #email {float: right; width: 220px; margin-right: -30px;}
+  form .error-text {width: 220px; margin-top: -5px;
+    margin-right: -30px; font-size: 10px; float: right;}
+}
+
+@media screen and (max-width: 600px) {
+.container-fluid {width:100%; margin: auto;}
+.hideOnSmallScreenOne {display: none;}
+.hideOnBigScreenOne{display: block; width: 100%; margin: auto; text-align: center;}
+.leftBlue{text-align: center; margin-right: 100px; padding-bottom: 50px;}
+.simpleBookmarking {text-align: center;}
+button {width: 100px;}
+.underFeatures {padding-left: 10px; padding-right: 10px;}
+.dotLine {width: 150px;}
+.chromeImage {width: 80px; height: auto;}
+.contactUs {text-align: center; margin-top: 20px; width: 80%;}
+  .stay {height: 400px;}
+  .alreadyJoined {font-size: 10px;}
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {float: right; display: block;}
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+}
